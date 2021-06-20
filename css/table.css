@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* To Box Model */
+  }
+  .container {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px;
+    box-sizing: border-box; /* To Box Model */
+  }
+
+
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+
+.table-responsive-sm
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 30%;
+
+}
+
+.table-bordered{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.text-center1{
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}
+
+

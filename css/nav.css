@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* To Box Model */
+  }
+  
+  /* Global */
+  body {
+    font-family: "Merriweather", sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+
+.button__primary {
+    background-image: linear-gradient(
+        to right,
+        #000000 100%,
+        #000000 100%,
+        #000000 100%
+      );
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 20px;
+    float: left;
+    margin-top: 30px;
+    
+    }
+.navbar {
+        justify-content: space-between;
+        margin-top: 0px;
+        display: flex;
+        margin-left: 0px;
+        background-color: whitesmoke;
+        margin-bottom: 60px;
+        
+        
+      }
+
+.navbar__brand {
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    margin-top: -10px;
+    margin-left: 50px;
+   
+    touch-action: pan-left pinch-zoom;
+    }
+      
+      
+.navbar__logo {
+        width: 100%;
+        background-color: whitesmoke;
+      }

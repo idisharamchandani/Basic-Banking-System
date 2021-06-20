@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px;
+    box-sizing: border-box; /* To Box Model */
+  }
+  .table-responsive-sm
+  {
+      margin-left: 10%;
+      margin-right: 10%;
+      width: 70%;
+      height: 30%;
+  
+  }
+  
+  .table-bordered{
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid black;
+     
+  }
+
+
+  
+  .text-center1{
+      border: 1px solid black;
+      padding: 10px 20px;
+      text-align: center;
+      
+  }
+  .btn{
+      border: none;
+      outline: none;
+      width: 70px;
+      height: 30px;
+      border-radius: 10px;
+  }
+
+  
